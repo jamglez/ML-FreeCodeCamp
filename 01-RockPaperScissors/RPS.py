@@ -111,7 +111,7 @@ play_order={
 
 def player(prev_play, opponent_history=[]):
   if not prev_play:
-      prev_play = 'S'
+      prev_play = 'R'
 
   opponent_history.append(prev_play)
   prediction = 'P'

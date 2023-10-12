@@ -1,0 +1,13 @@
+---------------------------------------- Modelo secuencial ----------------------------------------
+
+Red neuronal convolucional, en la que se añade cada capa de convoluciones
+para tratar un dataset de imagenes. Una arquitectura común está formada por capas Conv2D y MaxPooling, llamada
+'Base Convolucional' (ReLU suele funcion de activacion comun). Las capas finales 'Flatten' (cambia el shape a 1D)
+y 'Dense' la cual formará la capa final, la cual tendrá un numero de neuronas igual al número de clases.
+
+El modelo A secuencial no es apropiado cuando:
+
+Su modelo tiene múltiples entradas o múltiples salidas
+Cualquiera de sus capas tiene múltiples entradas o múltiples salidas
+Necesitas compartir capas
+Quiere una topología no lineal (por ejemplo, una conexión residual, un modelo de varias ramas)

@@ -13,3 +13,8 @@ Varias Clases
 ---------------------------------------- Problema de Regresión ----------------------------------------
 
 Predecir UN SOLO NÚMERO
+
+
+------------------------------------------ One Hot Encoding ------------------------------------------
+
+Convertir categorical data en "listas" de números

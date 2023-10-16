@@ -5,16 +5,7 @@ para tratar un dataset de imagenes. Una arquitectura común está formada por ca
 'Base Convolucional' (ReLU suele funcion de activacion comun). Las capas finales 'Flatten' (cambia el shape a 1D)
 y 'Dense' la cual formará la capa final, la cual tendrá un numero de neuronas igual al número de clases.
 
-
--------------------------------------- Problema de Clasificación --------------------------------------
-
-Varias Clases
-
----------------------------------------- Problema de Regresión ----------------------------------------
-
-Predecir UN SOLO NÚMERO
-
-
------------------------------------------- One Hot Encoding ------------------------------------------
-
-Convertir categorical data en "listas" de números
+Dense layer = Fully connected layer
+Clasificación -> Varias Clases
+Regresión -> Predecir UN SOLO NÚMERO
+One Hot Encoding = Convertir categorical data en "listas" de números

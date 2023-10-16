@@ -9,3 +9,8 @@ Dense layer = Fully connected layer
 Clasificación -> Varias Clases
 Regresión -> Predecir UN SOLO NÚMERO
 One Hot Encoding = Convertir categorical data en "listas" de números
+
+Como regla general, una red más profunda es mejor que una con capas más grandes https://www.youtube.com/watch?v=YhatZb5SzE0
+(cada capa se centra en la informacion de manera más detallada i.e. l1= arbol, l2=ramas, l3=hojas)
+
+Determinar un buen batch size https://www.youtube.com/watch?v=qclr5iL4P7Y
